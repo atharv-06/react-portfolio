@@ -1,77 +1,107 @@
-<<<<<<< HEAD
-# react-portfolio
-=======
-# React + TypeScript + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React**, **TypeScript**, and **Tailwind CSS**.
+It showcases my skills, projects, education, and contact details in a clean and responsive layout.
 
-Currently, two official plugins are available:
+The goal of this project was to build a simple, professional portfolio without unnecessary animations or overdesign, focusing on clarity and usability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://atharv-06.github.io/react-portfolio/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React (Vite)
+- TypeScript
+- Tailwind CSS
+- React Router
+- Git & GitHub
+- GitHub Pages (Hosting)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📂 Features
+
+- Responsive layout (desktop & mobile)
+- Sidebar with personal and contact details
+- Tab-based navigation
+- Sections:
+  - About
+  - Skills
+  - Projects
+  - Qualification
+  - Contact
+- Mobile-friendly sidebar menu
+- Clean and minimal UI
+
+---
+
+## 📁 Projects Included
+
+- **AI Resume Analyzer & Job Matcher**  
+  Python-based project that analyzes resumes, extracts skills, and matches candidates with suitable job roles.
+
+- **XKCD Email Subscription System**  
+  Backend system that sends XKCD comics to subscribed users via email.
+
+- **Online Notes Sharing Web App**  
+  Full-stack web application for creating, storing, and sharing notes securely.
+
+---
+
+## 🧑‍💻 Getting Started (Local Setup)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/atharv-06/react-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
->>>>>>> ac45b9c (Initial Portfolio)
+
+Run the project locally:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Deployment
+
+The project is deployed using **GitHub Pages**.
+
+Build command:
+
+```bash
+npm run build
+```
+
+Deploy command:
+
+```bash
+npm run deploy
+```
+
+---
+
+## 📬 Contact
+
+- Email: atharvlokhande.09@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/atharv-lokhande-8a743925b/  
+- GitHub: https://github.com/atharv-06  
+
+---
+
+## 📌 Note
+
+This portfolio is continuously evolving as I learn new technologies and work on more projects.
+Feedback and suggestions are always welcome.
