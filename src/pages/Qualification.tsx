@@ -12,14 +12,14 @@ export default function Qualification() {
         <QualificationCard
           title="Bachelor of Engineering (Computer Engineering)"
           institute="Savitribai Phule Pune University"
-          duration="2021 – 2025"
+          duration="2022 – 2026"
           desc="Focused on software development, data structures, databases, and web technologies."
         />
 
         <QualificationCard
           title="Higher Secondary Certificate (12th)"
           institute="Maharashtra State Board"
-          duration="2021"
+          duration="2022"
           desc="Studied Physics, Chemistry, Mathematics."
         />
 
