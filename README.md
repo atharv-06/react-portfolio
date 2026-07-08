@@ -1,73 +1,240 @@
-# React Portfolio
+# 🚀 Atharv Lokhande | Portfolio
 
-This is my personal portfolio website built using **React**, **TypeScript**, and **Tailwind CSS**.
-It showcases my skills, projects, education, and contact details in a clean and responsive layout.
+Welcome to my personal portfolio website! This portfolio showcases my skills, projects, education, and experience as a Computer Engineering graduate passionate about Full-Stack Development, Software Engineering, and QA Automation.
 
-The goal of this project was to build a simple, professional portfolio without unnecessary animations or overdesign, focusing on clarity and usability.
-
----
-
-## 🚀 Live Demo
-
-👉 https://atharv-06.github.io/react-portfolio/
+🔗 **Live Demo:**  
+https://atharv-06.github.io/react-portfolio/
 
 ---
 
-## 🛠️ Tech Stack
+# 📖 About
 
-- React (Vite)
+This portfolio was built to present my technical skills, projects, certifications, and contact information in a clean, modern, and responsive interface.
+
+It highlights my work in:
+
+- Full-Stack Web Development
+- Frontend Development
+- Backend Development
+- Software Testing & QA Automation
+- AI & Machine Learning Projects
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- React.js
 - TypeScript
 - Tailwind CSS
-- React Router
-- Git & GitHub
-- GitHub Pages (Hosting)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+### Backend
+
+- Node.js
+- Express.js
+- Flask
+- FastAPI
+- REST APIs
+
+### Database
+
+- MySQL
+- PostgreSQL
+- Elasticsearch
+
+### Testing
+
+- Selenium WebDriver
+- Mocha
+- Chai
+- Manual Testing
+
+### AI / ML
+
+- Python
+- scikit-learn
+- spaCy
+- NLTK
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- IntelliJ IDEA
+- EmailJS
+- GitHub Pages
 
 ---
 
-## 📂 Features
+# ✨ Features
 
-- Responsive layout (desktop & mobile)
-- Sidebar with personal and contact details
-- Tab-based navigation
-- Sections:
-  - About
-  - Skills
-  - Projects
-  - Qualification
-  - Contact
-- Mobile-friendly sidebar menu
-- Clean and minimal UI
-
----
-
-## 📁 Projects Included
-
-- **AI Resume Analyzer & Job Matcher**  
-  Python-based project that analyzes resumes, extracts skills, and matches candidates with suitable job roles.
-
-- **XKCD Email Subscription System**  
-  Backend system that sends XKCD comics to subscribed users via email.
-
-- **Online Notes Sharing Web App**  
-  Full-stack web application for creating, storing, and sharing notes securely.
+- Modern responsive UI
+- Mobile-friendly design
+- Interactive sidebar
+- About section
+- Technical Skills
+- Featured Projects
+- Education & Qualifications
+- Contact Form using EmailJS
+- GitHub & LinkedIn links
+- Smooth navigation
+- Clean and minimal design
 
 ---
 
-## 🧑‍💻 Getting Started (Local Setup)
+# 📂 Featured Projects
 
-Clone the repository:
+## 📌 AI Resume Analyzer & Job Matcher
+
+An AI-powered web application that analyzes resumes, extracts skills using NLP, and recommends suitable job roles.
+
+**Tech Stack**
+
+- React
+- TypeScript
+- FastAPI
+- PostgreSQL
+- Python
+- spaCy
+- scikit-learn
+
+---
+
+## 📌 Task Management App with Selenium Automation Testing
+
+A full-stack task management application with automated UI, functional, and regression testing using Selenium WebDriver.
+
+### Features
+
+- CRUD Operations
+- Task Priorities
+- Automated Testing
+- Responsive UI
+
+**Tech Stack**
+
+- Node.js
+- Express.js
+- Selenium WebDriver
+- Java
+- JavaScript
+- Mocha
+- Chai
+
+---
+
+## 📌 XKCD Email Subscription System
+
+A backend application that allows users to subscribe and receive the latest XKCD comics directly via email.
+
+### Features
+
+- Email Subscription
+- Scheduled Email Delivery
+- Input Validation
+- Backend Automation
+
+**Tech Stack**
+
+- Node.js
+- Express.js
+- EmailJS
+- Cron Jobs
+
+---
+
+## 📌 Online Notes Sharing Platform
+
+A secure full-stack web application that allows users to create, organize, and share notes.
+
+### Features
+
+- User Authentication
+- CRUD Operations
+- Session Management
+- Responsive Design
+
+**Tech Stack**
+
+- PHP
+- MySQL
+- Tailwind CSS
+
+---
+
+# 🎓 Education
+
+**Bachelor of Engineering (Computer Engineering)**
+
+Sinhgad Academy of Engineering, Pune
+
+Savitribai Phule Pune University
+
+2022 – 2026
+
+*Final Result Awaiting*
+
+---
+
+# 📜 Certifications
+
+- HackerRank Problem Solving (Basic)
+- React.js Certificate of Excellence
+- Google AI Agents Intensive
+- Green AI Skills Program (Edunet Foundation & Shell India)
+
+---
+
+# 📬 Contact
+
+📧 Email
+
+**atharvlokhande.09@gmail.com**
+
+📱 Phone
+
+**+91 80106 79493**
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/atharv-lokhande-8a743925b/
+
+💻 GitHub
+
+https://github.com/atharv-06
+
+🌐 Portfolio
+
+https://atharv-06.github.io/react-portfolio/
+
+---
+
+# ⚙ Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/atharv-06/react-portfolio.git
 ```
 
-Install dependencies:
+Navigate to the project
+
+```bash
+cd react-portfolio
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the project locally:
+Start the development server
 
 ```bash
 npm run dev
@@ -75,17 +242,17 @@ npm run dev
 
 ---
 
-## 📦 Deployment
-
-The project is deployed using **GitHub Pages**.
-
-Build command:
+# 📦 Build
 
 ```bash
 npm run build
 ```
 
-Deploy command:
+---
+
+# 🚀 Deployment
+
+Deploy to GitHub Pages
 
 ```bash
 npm run deploy
@@ -93,15 +260,36 @@ npm run deploy
 
 ---
 
-## 📬 Contact
+# 📁 Project Structure
 
-- Email: atharvlokhande.09@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/atharv-lokhande-8a743925b/  
-- GitHub: https://github.com/atharv-06  
+```
+src/
+│
+├── components/
+├── pages/
+├── assets/
+├── data/
+├── App.tsx
+├── main.tsx
+└── index.css
+```
 
 ---
 
-## 📌 Note
+# 🤝 Connect With Me
 
-This portfolio is continuously evolving as I learn new technologies and work on more projects.
-Feedback and suggestions are always welcome.
+If you're interested in collaborating, discussing projects, or exploring opportunities, feel free to reach out.
+
+- LinkedIn: https://www.linkedin.com/in/atharv-lokhande-8a743925b/
+- GitHub: https://github.com/atharv-06
+- Email: atharvlokhande.09@gmail.com
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub. It helps others discover my work and motivates me to continue building and improving projects.
+
+---
+
+**Made with ❤️ by Atharv Lokhande**
