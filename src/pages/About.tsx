@@ -13,15 +13,19 @@ export default function About() {
         <span className="text-slate-900 font-medium">
           Atharv Lokhande
         </span>
-        , a final-year Computer Engineering student focused on Frontend and Full-Stack web development. I primarily work with React, JavaScript, and Tailwind CSS, and also have backend experience with Node.js,Java, Spring Boot, and SQL.
+        , a Computer Engineering graduate with a
+        strong interest in software development. I enjoy building scalable web
+        applications and solving real-world problems using Java, Python,
+        JavaScript, React.js, Node.js, Spring Boot, and SQL.
       </p>
 
       <p className="text-slate-600 leading-relaxed max-w-2xl mt-4">
-        I have built real-world projects involving authentication, REST APIs,
-        dashboards, and database integration. I value clean UI, readable code,
-        and understanding core concepts rather than copying solutions. I am
-        currently seeking an internship or entry-level role where I can
-        contribute to real products and grow as a software developer.
+         I have developed full-stack applications involving authentication,
+        REST APIs, database integration, and responsive user interfaces. I also
+        have hands-on experience in automation testing using Selenium
+        WebDriver, Mocha, and Chai, along with basic AI and NLP projects using
+        Python. I am currently looking for an entry-level Software Engineer
+        opportunity where I can contribute, learn, and grow as a developer.
       </p>
 
       {/* Subheading */}

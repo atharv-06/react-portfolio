@@ -26,7 +26,7 @@ export default function Qualification() {
         <QualificationCard
           title="Secondary School Certificate (10th)"
           institute="Maharashtra State Board"
-          duration="2019"
+          duration="2020"
           desc="Completed secondary education with a strong foundation in mathematics and science."
         />
       </div>

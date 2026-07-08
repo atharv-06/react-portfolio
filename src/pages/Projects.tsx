@@ -18,10 +18,10 @@ export default function Projects() {
         />
 
         <ProjectCard
-          title="XKCD Email Subscription System"
-          desc="A backend project that allows users to subscribe and receive XKCD comics through email. It helped me learn email automation, scheduling, and backend validation."
-          tech="Node.js, Express, Email Services"
-          link="https://github.com/atharv-06/XKCD-Email-Subscription-System"
+        title="Task Management App with Selenium Testing"
+        desc="A full-stack task management application with automated UI and functional testing using Selenium WebDriver, ensuring reliable task creation, updates, and deletion."
+        tech="Node.js, Express.js, Selenium WebDriver, Mocha, Chai"
+        link="https://github.com/atharv-06/task-management-selenium-testing"
         />
 
         <ProjectCard
